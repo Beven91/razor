@@ -12,7 +12,7 @@
 
 ## 二 安装
 
-`npm install node-razor`
+  npm install node-razor
 
 ## 三、Express使用
 
