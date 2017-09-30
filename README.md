@@ -40,7 +40,7 @@ app.set('views', path.resolve('api/views'));
 
     * 新增 `@html.renderBody()` 用于在(`layout`)母版页中输出具体页面的内容 用于替代`vash`中的 `@html.block('content')` 同时无需在具体页面中指定`@html.block('content', function(model){ ...}` 
 
-    * 将母版页选择改成`express.render('home/index',{ layout:'layout'})` 渲染时指定`layout`参数来分配页面需要使用的母版页 从不不用再具体的页面使用`@html.extend('layout', function(model){ ...}`
+    * 将母版页选择改成`express.render('home/index',{ layout:'layout'})` 渲染时指定`layout`参数来分配页面需要使用的母版页 从而不用再具体的页面使用`@html.extend('layout', function(model){ ...}`
 
 * 母版页使用方式如下
 

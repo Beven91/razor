@@ -1,6 +1,6 @@
 {
   "name": "razor",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "razor view engine (based on vash)",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "vash",
     "express"
   ],
+  "dependencies": {
+    "vash": "^0.12.2"
+  },
   "author": "beven",
   "license": "MIT",
   "bugs": {
