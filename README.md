@@ -6,9 +6,9 @@
 
 基于 <a href="https://github.com/kirbysayshi/vash">`vash`</a> 扩展的`razor`视图引擎
 
-视图引擎语法文档:(<a href="https://github.com/kirbysayshi/vash">`vash`</a>)
+视图引擎语法文档:<a href="https://github.com/kirbysayshi/vash">`vash`</a>
 
-`visual studio code` 高亮语法插件：执行 `ext install vash` 安装
+`visual studio code` 高亮语法插件(执行 `ext install vash` 安装)
 
 ## 二 安装
 
