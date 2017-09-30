@@ -1,0 +1,13 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>@model.title</title>
+        <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" charset="utf-8">
+    </head>
+    <body>
+        @html.renderBody()
+        <footer>
+            @html.block('footer')
+        </footer>
+    </body>
+</html>

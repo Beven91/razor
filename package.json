@@ -1,6 +1,6 @@
 {
   "name": "node-razor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "razor view engine (based on vash)",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,15 @@
   "keywords": [
     "razor",
     "vash",
-    "express"
+    "express",
+    "node-razor"
   ],
   "dependencies": {
     "vash": "^0.12.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
   },
   "author": "beven",
   "license": "MIT",

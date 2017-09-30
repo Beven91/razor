@@ -105,12 +105,12 @@ class Razor {
         const layout = optionLayout === null ? null : optionLayout || this.viewOptions.layout;
         const layoutDir = this.viewOptions.layoutDir || view.root;
         const layoutPath = path.join(layoutDir, layout + view.ext);
-
+        
         if (layout && !fs.existsSync(layoutPath)) {
-            throw new Error(`Cannot find layout:${layout}`)
+            throw new Error(`Cannot find layout:${layout} \n     lookup: ${layoutPath}`)
         }
         if(layout){
-            return path.relative(view.root, layoutPath).replace(/\\/g,'/');
+            return layoutPath.replace(/\\/g,'/');
         }
     }
 
