@@ -1,6 +1,6 @@
 {
-  "name": "razor",
-  "version": "0.0.1",
+  "name": "node-razor",
+  "version": "0.0.2",
   "description": "razor view engine (based on vash)",
   "main": "index.js",
   "scripts": {
