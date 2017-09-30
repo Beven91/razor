@@ -1,0 +1,10 @@
+.classpath
+.project
+.idea
+dist/
+debug.log
+yarn.lock
+node_modules/
+bower_modules/
+npm-debug.log
+Thumbs.db
