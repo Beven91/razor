@@ -20,7 +20,7 @@
 
 const path = require('path');
 const express = require('express');
-const razor = require('razor');
+const razor = require('node-razor');
 
 const app = express();
 
